@@ -14,6 +14,17 @@ h2{
 header{
   height: 100%;
 }
+ul{
+  list-style-type: none;
+}
+a{
+  color:green;
+  text-decoration: none;
+}
+a:hover{
+  color: lightgrey;
+  text-decoration: none;
+}
 #contenitore_principale {
   margin: 20px;
 }
@@ -69,7 +80,13 @@ header{
   float: left;
   width: 20%;
   margin-right:20px;
-
+}
+#organic_title{
+  margin-left: 20px;
+  font-weight: bold;
+}
+i{
+  color: orange;
 }
 .colcentro{
   float: left;
@@ -91,4 +108,15 @@ header{
 }
 .margin-top-1{
   margin-top:10px;
+}
+.margin-bottom-1{
+  margin-bottom: 10px;
+}
+footer{
+  height: 100px;
+  background-color: #504741;
+}
+footer p{
+  text-align: center;
+  color: lightgrey;
 }
